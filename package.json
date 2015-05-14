@@ -1,0 +1,30 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "hs -a localhost -p $((RANDOM + 10000)) -o",
+    "build": "./build.sh",
+    "start": "npm run build; npm run server",
+    "deploy": "npm run build; ./deploy.sh",
+    "watch": "./watch.sh; npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattfili/blackjack"
+  },
+  "author": "Matt Fili <matthewjosephfili@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattfili/blackjack/issues"
+  },
+  "homepage": "https://github.com/mattfili/blackjack",
+  "devDependencies": {
+    "babel": "^5.3.3",
+    "bowcat": "0.0.4",
+    "http-server": "^0.8.0",
+    "nodemon": "^1.3.7"
+  }
+}

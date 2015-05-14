@@ -1,0 +1,21 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mattfili/blackjack",
+  "authors": [
+    "Matt Fili <matthewjosephfili@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "node-sass": "~3.1.0",
+    "jade": "~1.9.2"
+  }
+}
